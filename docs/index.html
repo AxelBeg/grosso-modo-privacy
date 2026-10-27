@@ -48,10 +48,42 @@
             font-size: 15px;
             margin-bottom: 24px;
         }
+        .langs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 14px;
+            font-size: 15px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        .langs a {
+            color: #0b5cad;
+            text-decoration: none;
+        }
+        .langs a[aria-current] {
+            color: #333;
+            font-weight: bold;
+        }
+        [hidden] {
+            display: none;
+        }
     </style>
 </head>
 
 <body>
+
+    <!-- Chaque langue s'écrit dans sa propre langue -->
+    <nav class="langs">
+        <a href="?lang=fr" data-lang="fr" hreflang="fr">Français</a>
+        <a href="?lang=en" data-lang="en" hreflang="en">English</a>
+        <a href="?lang=es" data-lang="es" hreflang="es">Español</a>
+        <a href="?lang=pt" data-lang="pt" hreflang="pt">Português</a>
+        <a href="?lang=de" data-lang="de" hreflang="de">Deutsch</a>
+        <a href="?lang=it" data-lang="it" hreflang="it">Italiano</a>
+    </nav>
+
+    <!-- ===================== FRANÇAIS ===================== -->
+    <article lang="fr" data-title="Politique de Confidentialité – Grosso Modo (Gbz Games)">
 
     <h1>Politique de Confidentialité</h1>
 
@@ -59,7 +91,7 @@
         Application : <strong>Grosso Modo</strong> (identifiant Google Play : <strong>com.gbzgames.grossomodo</strong>)<br>
         Développeur : <strong>Gbz Games</strong><br>
         Contact : <strong>gbzgames37@gmail.com</strong><br>
-        Dernière mise à jour : 5 octobre 2026
+        Dernière mise à jour : 27 octobre 2026
     </p>
 
     <p>
@@ -229,6 +261,937 @@
         Pour toute question relative à cette politique de confidentialité ou au traitement de vos données :<br>
         <strong>Gbz Games — gbzgames37@gmail.com</strong>
     </p>
+
+    </article>
+
+    <!-- ===================== ENGLISH ===================== -->
+    <article lang="en" data-title="Privacy Policy – Grosso Modo (Gbz Games)" hidden>
+
+    <h1>Privacy Policy</h1>
+
+    <p class="meta">
+        App: <strong>Grosso Modo</strong> (Google Play ID: <strong>com.gbzgames.grossomodo</strong>)<br>
+        Developer: <strong>Gbz Games</strong><br>
+        Contact: <strong>gbzgames37@gmail.com</strong><br>
+        Last updated: October 27, 2026
+    </p>
+
+    <p>
+        This privacy policy describes how the <strong>Grosso Modo</strong> mobile app, developed and published on
+        Google Play by <strong>Gbz Games</strong>, handles information when you use it. It applies only to the
+        Grosso Modo app (com.gbzgames.grossomodo).
+    </p>
+
+    <h2>1. Data controller</h2>
+
+    <p>
+        The data controller is <strong>Gbz Games</strong>, developer of the Grosso Modo app, who can be reached at
+        <strong>gbzgames37@gmail.com</strong>.
+    </p>
+
+    <h2>2. Data we do not collect</h2>
+
+    <p>
+        The app does not require you to create an account and collects <strong>no directly identifying
+        data</strong>: no name, email address, phone number, postal address, contacts, photos, precise location or
+        address book content.
+    </p>
+
+    <p>
+        The first names or nicknames entered before a multiplayer game are kept only in the device's memory for the
+        duration of the game. They are not stored permanently, not sent to Gbz Games and not shared with any third
+        party.
+    </p>
+
+    <h2>3. Data collected and purposes</h2>
+
+    <p>
+        To run the app, measure its usage in aggregate and fund its free version, the following data is processed:
+    </p>
+
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Data involved</th>
+            <th>Purpose</th>
+        </tr>
+        <tr>
+            <td>Usage statistics (analytics)</td>
+            <td>Anonymous game events (game start and end, solo or multiplayer mode, questions played and their
+                topics, estimates entered and their distance from the correct answer, use of the calculator, ads shown
+                and closed, purchase opened and its result), a randomly generated anonymous installation ID, a session
+                ID, device language, device model and type, operating system version, app version.</td>
+            <td>Understand how the app is used, adjust question difficulty, fix problems and improve the game.</td>
+        </tr>
+        <tr>
+            <td>Advertising</td>
+            <td>Google advertising ID (AAID), IP address, technical information about the device and interactions
+                with ads, collected by Google AdMob.</td>
+            <td>Show ads, including rewarded ads that unlock certain game features (for example a second chance),
+                measure their performance and prevent fraud.</td>
+        </tr>
+        <tr>
+            <td>In-app purchases (if offered)</td>
+            <td>Status of purchases made in the app, provided by Google Play. Gbz Games never has access to your
+                payment information, which is handled exclusively by Google.</td>
+            <td>Unlock and restore purchased content on your devices.</td>
+        </tr>
+    </table>
+
+    <p>
+        The app <strong>does not record your screen</strong> and does not perform any session recording ("session
+        replay" is disabled). No collected data is sold.
+    </p>
+
+    <h2>4. Data stored on your device</h2>
+
+    <p>
+        Some information is kept locally on your device, is accessible only to the app and is not sent to anyone:
+    </p>
+
+    <ul>
+        <li>your best score (longest streak in solo mode);</li>
+        <li>where applicable, the list of purchased content (remembered for offline access) and your game
+            preferences.</li>
+    </ul>
+
+    <p>
+        Uninstalling the app deletes this information from your device.
+    </p>
+
+    <h2>5. Third-party services</h2>
+
+    <p>
+        The app uses the following services, which may process data under their own privacy policies:
+    </p>
+
+    <ul>
+        <li><strong>PostHog</strong> (anonymous usage statistics, hosted in the European Union) —
+            <a href="https://posthog.com/privacy">https://posthog.com/privacy</a></li>
+        <li><strong>Google AdMob</strong> (advertising) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> and
+            <a href="https://support.google.com/admob/answer/6128543">AdMob information about advertising</a></li>
+        <li><strong>Google Play Billing</strong> (in-app purchases, if offered) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+    </ul>
+
+    <h2>6. Advertising and consent</h2>
+
+    <p>
+        In the European Economic Area, the United Kingdom and Switzerland, a consent form compliant with the Google
+        UMP / TCF framework is shown on first launch to collect your choice regarding personalized ads. Without
+        consent, the ads shown are non-personalized. Watching a rewarded ad is always optional. You can limit ad
+        tracking at any time in your device settings
+        (Android: <em>Settings &gt; Google &gt; Ads &gt; Delete advertising ID</em>).
+    </p>
+
+    <h2>7. Legal basis (GDPR)</h2>
+
+    <ul>
+        <li>Providing the service and managing in-app purchases: performance of a contract.</li>
+        <li>Anonymous usage statistics and fraud prevention: legitimate interest in improving and securing the
+            app.</li>
+        <li>Personalized advertising: your consent, collected through the form shown in the app and revocable at any
+            time.</li>
+    </ul>
+
+    <h2>8. Retention period</h2>
+
+    <p>
+        Anonymous usage events are kept by PostHog for a maximum of 12 months. Data processed by Google (advertising,
+        purchases) is kept according to Google's policies. Data stored locally is kept until the app is uninstalled or
+        its data is cleared.
+    </p>
+
+    <h2>9. Children</h2>
+
+    <p>
+        Grosso Modo is a general knowledge game suitable for all ages, but it is not specifically directed at children
+        within the meaning of the Google Play Families policy. We do not knowingly collect personal data from children
+        under 13. If you believe a child has provided us with data, please write to
+        <strong>gbzgames37@gmail.com</strong> so that we can delete it.
+    </p>
+
+    <h2>10. Your rights</h2>
+
+    <p>
+        Under the GDPR, you have the right to access, rectify, erase, restrict and object to the processing of your
+        data, as well as the right to withdraw your advertising consent. Since the app only uses an anonymous
+        installation ID, please include in your request the information needed to identify it. You can exercise these
+        rights by writing to <strong>gbzgames37@gmail.com</strong>. You also have the right to lodge a complaint with a
+        supervisory authority, such as the data protection authority of your country of residence (in France, the
+        CNIL).
+    </p>
+
+    <h2>11. Changes to this policy</h2>
+
+    <p>
+        This policy may be updated as the app evolves, for example when new features or services are added. The
+        "last updated" date at the top of the page identifies the version in force.
+    </p>
+
+    <h2>12. Contact</h2>
+
+    <p>
+        For any question about this privacy policy or the processing of your data:<br>
+        <strong>Gbz Games — gbzgames37@gmail.com</strong>
+    </p>
+
+    </article>
+
+    <!-- ===================== ESPAÑOL ===================== -->
+    <article lang="es" data-title="Política de privacidad – Grosso Modo (Gbz Games)" hidden>
+
+    <h1>Política de privacidad</h1>
+
+    <p class="meta">
+        Aplicación: <strong>Grosso Modo</strong> (identificador de Google Play: <strong>com.gbzgames.grossomodo</strong>)<br>
+        Desarrollador: <strong>Gbz Games</strong><br>
+        Contacto: <strong>gbzgames37@gmail.com</strong><br>
+        Última actualización: 27 de octubre de 2026
+    </p>
+
+    <p>
+        Esta política de privacidad describe cómo la aplicación móvil <strong>Grosso Modo</strong>, desarrollada y
+        publicada en Google Play por <strong>Gbz Games</strong>, trata la información durante su uso. Se aplica
+        exclusivamente a la aplicación Grosso Modo (com.gbzgames.grossomodo).
+    </p>
+
+    <h2>1. Responsable del tratamiento</h2>
+
+    <p>
+        El responsable del tratamiento de los datos es <strong>Gbz Games</strong>, desarrollador de la aplicación
+        Grosso Modo, con quien puedes contactar en <strong>gbzgames37@gmail.com</strong>.
+    </p>
+
+    <h2>2. Datos que no recopilamos</h2>
+
+    <p>
+        La aplicación no requiere crear una cuenta y no recopila <strong>ningún dato de identificación
+        directa</strong>: ni nombre, ni dirección de correo electrónico, ni número de teléfono, ni dirección postal, ni
+        contactos, ni fotos, ni ubicación precisa, ni contenido de la agenda.
+    </p>
+
+    <p>
+        Los nombres o apodos de los jugadores introducidos antes de una partida multijugador solo se guardan en la
+        memoria del dispositivo mientras dura la partida. No se almacenan de forma permanente, no se envían a Gbz Games
+        ni se comparten con terceros.
+    </p>
+
+    <h2>3. Datos recopilados y finalidades</h2>
+
+    <p>
+        Para hacer funcionar la aplicación, medir su uso de forma agregada y financiar su versión gratuita, se tratan
+        los siguientes datos:
+    </p>
+
+    <table>
+        <tr>
+            <th>Categoría</th>
+            <th>Datos afectados</th>
+            <th>Finalidad</th>
+        </tr>
+        <tr>
+            <td>Estadísticas de uso (analítica)</td>
+            <td>Eventos de juego anónimos (inicio y fin de partida, modo de juego individual o multijugador, preguntas
+                jugadas y temas, estimaciones introducidas y diferencia con la respuesta correcta, uso de la
+                calculadora, visualización y cierre de anuncios, apertura y resultado de una compra), identificador
+                anónimo de instalación generado aleatoriamente, identificador de sesión, idioma del dispositivo, modelo
+                y tipo de dispositivo, versión del sistema operativo, versión de la aplicación.</td>
+            <td>Entender el uso de la aplicación, ajustar la dificultad de las preguntas, corregir problemas y mejorar
+                el juego.</td>
+        </tr>
+        <tr>
+            <td>Publicidad</td>
+            <td>Identificador de publicidad de Google (AAID), dirección IP, información técnica del dispositivo e
+                interacciones con los anuncios, recopilados por Google AdMob.</td>
+            <td>Mostrar anuncios, en particular anuncios con recompensa que permiten desbloquear ciertas funciones del
+                juego (por ejemplo, una segunda oportunidad), medir su rendimiento y prevenir el fraude.</td>
+        </tr>
+        <tr>
+            <td>Compras integradas (si se ofrecen)</td>
+            <td>Estado de las compras realizadas en la aplicación, transmitido por Google Play. Gbz Games nunca tiene
+                acceso a tus datos de pago, que gestiona exclusivamente Google.</td>
+            <td>Desbloquear y restaurar el contenido comprado en tus dispositivos.</td>
+        </tr>
+    </table>
+
+    <p>
+        La aplicación <strong>no graba tu pantalla</strong> ni realiza ninguna grabación de sesión (función «session
+        replay» desactivada). Ningún dato recopilado se vende.
+    </p>
+
+    <h2>4. Datos almacenados en tu dispositivo</h2>
+
+    <p>
+        Cierta información se conserva localmente en tu dispositivo, solo es accesible para la aplicación y no se
+        envía a nadie:
+    </p>
+
+    <ul>
+        <li>tu mejor puntuación (racha récord en modo individual);</li>
+        <li>en su caso, la lista de contenidos comprados (guardada para el acceso sin conexión) y tus preferencias de
+            juego.</li>
+    </ul>
+
+    <p>
+        Al desinstalar la aplicación se elimina esta información de tu dispositivo.
+    </p>
+
+    <h2>5. Servicios de terceros</h2>
+
+    <p>
+        La aplicación utiliza los siguientes servicios, que pueden tratar datos según sus propias políticas de
+        privacidad:
+    </p>
+
+    <ul>
+        <li><strong>PostHog</strong> (estadísticas de uso anónimas, alojamiento en la Unión Europea) —
+            <a href="https://posthog.com/privacy">https://posthog.com/privacy</a></li>
+        <li><strong>Google AdMob</strong> (publicidad) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> e
+            <a href="https://support.google.com/admob/answer/6128543">información de AdMob sobre la publicidad</a></li>
+        <li><strong>Google Play Billing</strong> (compras integradas, si se ofrecen) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+    </ul>
+
+    <h2>6. Publicidad y consentimiento</h2>
+
+    <p>
+        En el Espacio Económico Europeo, el Reino Unido y Suiza, al abrir la aplicación por primera vez se te muestra un
+        formulario de consentimiento conforme al marco Google UMP / TCF para recoger tu elección sobre los anuncios
+        personalizados. Sin consentimiento, los anuncios mostrados no son personalizados. Ver un anuncio con
+        recompensa es siempre opcional. Puedes limitar el seguimiento publicitario en cualquier momento desde los
+        ajustes de tu dispositivo
+        (Android: <em>Ajustes &gt; Google &gt; Anuncios &gt; Eliminar ID de publicidad</em>).
+    </p>
+
+    <h2>7. Base jurídica (RGPD)</h2>
+
+    <ul>
+        <li>Prestación del servicio y gestión de las compras integradas: ejecución de un contrato.</li>
+        <li>Estadísticas de uso anónimas y prevención del fraude: interés legítimo en mejorar y proteger la
+            aplicación.</li>
+        <li>Publicidad personalizada: tu consentimiento, recogido mediante el formulario que se muestra en la
+            aplicación y revocable en cualquier momento.</li>
+    </ul>
+
+    <h2>8. Plazo de conservación</h2>
+
+    <p>
+        PostHog conserva los eventos de uso anónimos durante un máximo de 12 meses. Los datos tratados por Google
+        (publicidad, compras) se conservan según las políticas de Google. Los datos almacenados localmente se conservan
+        hasta que se desinstala la aplicación o se borran sus datos.
+    </p>
+
+    <h2>9. Menores</h2>
+
+    <p>
+        Grosso Modo es un juego de cultura general para todos los públicos, pero no está dirigido específicamente a
+        niños en el sentido de la política «Familias» de Google Play. No recopilamos a sabiendas datos personales de
+        menores de 13 años. Si crees que un niño nos ha facilitado datos, escribe a
+        <strong>gbzgames37@gmail.com</strong> para que los eliminemos.
+    </p>
+
+    <h2>10. Tus derechos</h2>
+
+    <p>
+        De acuerdo con el RGPD, tienes derecho de acceso, rectificación, supresión, limitación y oposición, así como
+        derecho a retirar tu consentimiento publicitario. Como la aplicación solo utiliza un identificador anónimo de
+        instalación, indica en tu solicitud los datos que permitan identificarlo. Puedes ejercer estos derechos
+        escribiendo a <strong>gbzgames37@gmail.com</strong>. También tienes derecho a presentar una reclamación ante
+        una autoridad de control, como la autoridad de protección de datos de tu país de residencia (en España, la
+        AEPD; en Francia, la CNIL).
+    </p>
+
+    <h2>11. Cambios en esta política</h2>
+
+    <p>
+        Esta política puede actualizarse a medida que evolucione la aplicación, por ejemplo al añadir nuevas funciones
+        o nuevos servicios. La fecha de última actualización indicada al principio de la página permite identificar la
+        versión vigente.
+    </p>
+
+    <h2>12. Contacto</h2>
+
+    <p>
+        Para cualquier pregunta sobre esta política de privacidad o el tratamiento de tus datos:<br>
+        <strong>Gbz Games — gbzgames37@gmail.com</strong>
+    </p>
+
+    </article>
+
+    <!-- ===================== PORTUGUÊS ===================== -->
+    <article lang="pt" data-title="Política de privacidade – Grosso Modo (Gbz Games)" hidden>
+
+    <h1>Política de privacidade</h1>
+
+    <p class="meta">
+        Aplicativo: <strong>Grosso Modo</strong> (identificador no Google Play: <strong>com.gbzgames.grossomodo</strong>)<br>
+        Desenvolvedor: <strong>Gbz Games</strong><br>
+        Contato: <strong>gbzgames37@gmail.com</strong><br>
+        Última atualização: 27 de outubro de 2026
+    </p>
+
+    <p>
+        Esta política de privacidade descreve como o aplicativo móvel <strong>Grosso Modo</strong>, desenvolvido e
+        publicado no Google Play pela <strong>Gbz Games</strong>, trata as informações durante o seu uso. Ela se aplica
+        exclusivamente ao aplicativo Grosso Modo (com.gbzgames.grossomodo).
+    </p>
+
+    <h2>1. Controlador dos dados</h2>
+
+    <p>
+        O controlador dos dados é a <strong>Gbz Games</strong>, desenvolvedora do aplicativo Grosso Modo, que pode ser
+        contatada pelo endereço <strong>gbzgames37@gmail.com</strong>.
+    </p>
+
+    <h2>2. Dados que não coletamos</h2>
+
+    <p>
+        O aplicativo não exige a criação de uma conta e não coleta <strong>nenhum dado de identificação
+        direta</strong>: nem nome, nem endereço de e-mail, nem número de telefone, nem endereço postal, nem contatos,
+        nem fotos, nem localização precisa, nem conteúdo da agenda.
+    </p>
+
+    <p>
+        Os nomes ou apelidos dos jogadores digitados antes de uma partida com várias pessoas ficam apenas na memória do
+        aparelho durante a partida. Eles não são armazenados de forma permanente, não são enviados à Gbz Games e não
+        são compartilhados com terceiros.
+    </p>
+
+    <h2>3. Dados coletados e finalidades</h2>
+
+    <p>
+        Para fazer o aplicativo funcionar, medir seu uso de forma agregada e financiar sua versão gratuita, os
+        seguintes dados são tratados:
+    </p>
+
+    <table>
+        <tr>
+            <th>Categoria</th>
+            <th>Dados envolvidos</th>
+            <th>Finalidade</th>
+        </tr>
+        <tr>
+            <td>Estatísticas de uso (analytics)</td>
+            <td>Eventos de jogo anônimos (início e fim de partida, modo de jogo individual ou com várias pessoas,
+                perguntas jogadas e temas, estimativas digitadas e diferença em relação à resposta certa, uso da
+                calculadora, exibição e fechamento de anúncios, abertura e resultado de uma compra), identificador
+                anônimo de instalação gerado aleatoriamente, identificador de sessão, idioma do aparelho, modelo e tipo
+                de aparelho, versão do sistema operacional, versão do aplicativo.</td>
+            <td>Entender o uso do aplicativo, ajustar a dificuldade das perguntas, corrigir problemas e melhorar o
+                jogo.</td>
+        </tr>
+        <tr>
+            <td>Publicidade</td>
+            <td>ID de publicidade do Google (AAID), endereço IP, informações técnicas sobre o aparelho e interações com
+                os anúncios, coletados pelo Google AdMob.</td>
+            <td>Exibir anúncios, especialmente anúncios premiados que permitem desbloquear certos recursos do jogo (por
+                exemplo, uma segunda chance), medir seu desempenho e prevenir fraudes.</td>
+        </tr>
+        <tr>
+            <td>Compras no aplicativo (se oferecidas)</td>
+            <td>Status das compras feitas no aplicativo, transmitido pelo Google Play. A Gbz Games nunca tem acesso às
+                suas informações de pagamento, que são gerenciadas exclusivamente pelo Google.</td>
+            <td>Desbloquear e restaurar o conteúdo comprado nos seus aparelhos.</td>
+        </tr>
+    </table>
+
+    <p>
+        O aplicativo <strong>não grava a sua tela</strong> e não faz nenhuma gravação de sessão (recurso "session
+        replay" desativado). Nenhum dado coletado é vendido.
+    </p>
+
+    <h2>4. Dados armazenados no seu aparelho</h2>
+
+    <p>
+        Algumas informações são guardadas localmente no seu aparelho, só podem ser acessadas pelo aplicativo e não são
+        enviadas a ninguém:
+    </p>
+
+    <ul>
+        <li>sua melhor pontuação (sequência recorde no modo individual);</li>
+        <li>se for o caso, a lista de conteúdos comprados (guardada para acesso off-line) e suas preferências de
+            jogo.</li>
+    </ul>
+
+    <p>
+        Desinstalar o aplicativo apaga essas informações do seu aparelho.
+    </p>
+
+    <h2>5. Serviços de terceiros</h2>
+
+    <p>
+        O aplicativo utiliza os seguintes serviços, que podem tratar dados de acordo com suas próprias políticas de
+        privacidade:
+    </p>
+
+    <ul>
+        <li><strong>PostHog</strong> (estatísticas de uso anônimas, hospedagem na União Europeia) —
+            <a href="https://posthog.com/privacy">https://posthog.com/privacy</a></li>
+        <li><strong>Google AdMob</strong> (publicidade) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> e
+            <a href="https://support.google.com/admob/answer/6128543">informações do AdMob sobre publicidade</a></li>
+        <li><strong>Google Play Billing</strong> (compras no aplicativo, se oferecidas) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+    </ul>
+
+    <h2>6. Publicidade e consentimento</h2>
+
+    <p>
+        No Espaço Econômico Europeu, no Reino Unido e na Suíça, um formulário de consentimento em conformidade com o
+        padrão Google UMP / TCF é exibido na primeira abertura para registrar a sua escolha sobre anúncios
+        personalizados. Sem consentimento, os anúncios exibidos não são personalizados. Assistir a um anúncio premiado
+        é sempre opcional. Você pode limitar o rastreamento publicitário a qualquer momento nas configurações do seu
+        aparelho
+        (Android: <em>Configurações &gt; Google &gt; Anúncios &gt; Excluir ID de publicidade</em>).
+    </p>
+
+    <h2>7. Base legal (RGPD / LGPD)</h2>
+
+    <ul>
+        <li>Prestação do serviço e gestão das compras no aplicativo: execução de contrato.</li>
+        <li>Estatísticas de uso anônimas e prevenção de fraudes: legítimo interesse em melhorar e proteger o
+            aplicativo.</li>
+        <li>Publicidade personalizada: o seu consentimento, coletado pelo formulário exibido no aplicativo e
+            revogável a qualquer momento.</li>
+    </ul>
+
+    <h2>8. Prazo de conservação</h2>
+
+    <p>
+        Os eventos de uso anônimos são guardados pelo PostHog por no máximo 12 meses. Os dados tratados pelo Google
+        (publicidade, compras) são guardados de acordo com as políticas do Google. Os dados armazenados localmente são
+        mantidos até a desinstalação do aplicativo ou a limpeza de seus dados.
+    </p>
+
+    <h2>9. Menores</h2>
+
+    <p>
+        Grosso Modo é um jogo de conhecimentos gerais para todas as idades, mas não é especificamente destinado a
+        crianças nos termos da política "Famílias" do Google Play. Não coletamos intencionalmente dados pessoais de
+        crianças com menos de 13 anos. Se você acredita que uma criança nos forneceu dados, escreva para
+        <strong>gbzgames37@gmail.com</strong> para que possamos excluí-los.
+    </p>
+
+    <h2>10. Seus direitos</h2>
+
+    <p>
+        De acordo com o RGPD (e, no Brasil, a LGPD), você tem direito de acesso, retificação, eliminação, limitação e
+        oposição, bem como o direito de retirar o seu consentimento publicitário. Como o aplicativo usa apenas um
+        identificador anônimo de instalação, informe no seu pedido os elementos que permitam identificá-lo. Você pode
+        exercer esses direitos escrevendo para <strong>gbzgames37@gmail.com</strong>. Você também tem o direito de
+        apresentar uma reclamação a uma autoridade de controle, como a autoridade de proteção de dados do seu país de
+        residência (no Brasil, a ANPD; em Portugal, a CNPD; na França, a CNIL).
+    </p>
+
+    <h2>11. Alterações desta política</h2>
+
+    <p>
+        Esta política pode ser atualizada conforme o aplicativo evolui, por exemplo com a inclusão de novos recursos ou
+        serviços. A data da última atualização, indicada no topo da página, identifica a versão em vigor.
+    </p>
+
+    <h2>12. Contato</h2>
+
+    <p>
+        Para qualquer dúvida sobre esta política de privacidade ou o tratamento dos seus dados:<br>
+        <strong>Gbz Games — gbzgames37@gmail.com</strong>
+    </p>
+
+    </article>
+
+    <!-- ===================== DEUTSCH ===================== -->
+    <article lang="de" data-title="Datenschutzerklärung – Grosso Modo (Gbz Games)" hidden>
+
+    <h1>Datenschutzerklärung</h1>
+
+    <p class="meta">
+        App: <strong>Grosso Modo</strong> (Google-Play-Kennung: <strong>com.gbzgames.grossomodo</strong>)<br>
+        Entwickler: <strong>Gbz Games</strong><br>
+        Kontakt: <strong>gbzgames37@gmail.com</strong><br>
+        Zuletzt aktualisiert: 27. Oktober 2026
+    </p>
+
+    <p>
+        Diese Datenschutzerklärung beschreibt, wie die mobile App <strong>Grosso Modo</strong>, entwickelt und auf
+        Google Play veröffentlicht von <strong>Gbz Games</strong>, bei ihrer Nutzung mit Informationen umgeht. Sie gilt
+        ausschließlich für die App Grosso Modo (com.gbzgames.grossomodo).
+    </p>
+
+    <h2>1. Verantwortlicher</h2>
+
+    <p>
+        Verantwortlicher für die Datenverarbeitung ist <strong>Gbz Games</strong>, Entwickler der App Grosso Modo,
+        erreichbar unter <strong>gbzgames37@gmail.com</strong>.
+    </p>
+
+    <h2>2. Daten, die wir nicht erheben</h2>
+
+    <p>
+        Die App erfordert kein Benutzerkonto und erhebt <strong>keine direkt identifizierenden Daten</strong>: weder
+        Name noch E-Mail-Adresse, Telefonnummer, Postanschrift, Kontakte, Fotos, genauen Standort oder Inhalte des
+        Adressbuchs.
+    </p>
+
+    <p>
+        Vornamen oder Spitznamen, die vor einem Spiel mit mehreren Personen eingegeben werden, bleiben nur für die Dauer
+        des Spiels im Speicher des Geräts. Sie werden weder dauerhaft gespeichert noch an Gbz Games oder Dritte
+        übermittelt.
+    </p>
+
+    <h2>3. Erhobene Daten und Zwecke</h2>
+
+    <p>
+        Um die App zu betreiben, ihre Nutzung in zusammengefasster Form zu messen und ihre kostenlose Version zu
+        finanzieren, werden folgende Daten verarbeitet:
+    </p>
+
+    <table>
+        <tr>
+            <th>Kategorie</th>
+            <th>Betroffene Daten</th>
+            <th>Zweck</th>
+        </tr>
+        <tr>
+            <td>Nutzungsstatistiken (Analytics)</td>
+            <td>Anonyme Spielereignisse (Spielbeginn und -ende, Spielmodus allein oder mit mehreren, gespielte Fragen
+                und Themen, eingegebene Schätzungen und ihre Abweichung von der richtigen Antwort, Nutzung des
+                Taschenrechners, Anzeige und Schließen von Werbung, Öffnen und Ergebnis eines Kaufs), zufällig erzeugte
+                anonyme Installations-ID, Sitzungs-ID, Gerätesprache, Gerätemodell und -typ, Version des
+                Betriebssystems, Version der App.</td>
+            <td>Die Nutzung der App verstehen, den Schwierigkeitsgrad der Fragen anpassen, Fehler beheben und das Spiel
+                verbessern.</td>
+        </tr>
+        <tr>
+            <td>Werbung</td>
+            <td>Google-Werbe-ID (AAID), IP-Adresse, technische Informationen über das Gerät und Interaktionen mit
+                Anzeigen, erhoben durch Google AdMob.</td>
+            <td>Werbung anzeigen, insbesondere Prämienanzeigen, mit denen sich bestimmte Spielfunktionen freischalten
+                lassen (zum Beispiel eine zweite Chance), ihre Leistung messen und Betrug verhindern.</td>
+        </tr>
+        <tr>
+            <td>In-App-Käufe (falls angeboten)</td>
+            <td>Status der in der App getätigten Käufe, übermittelt von Google Play. Gbz Games hat niemals Zugriff auf
+                deine Zahlungsdaten, die ausschließlich von Google verwaltet werden.</td>
+            <td>Gekaufte Inhalte auf deinen Geräten freischalten und wiederherstellen.</td>
+        </tr>
+    </table>
+
+    <p>
+        Die App <strong>zeichnet deinen Bildschirm nicht auf</strong> und führt keine Sitzungsaufzeichnung durch
+        (Funktion „Session Replay“ deaktiviert). Erhobene Daten werden nicht verkauft.
+    </p>
+
+    <h2>4. Auf deinem Gerät gespeicherte Daten</h2>
+
+    <p>
+        Einige Informationen werden lokal auf deinem Gerät gespeichert, sind nur für die App zugänglich und werden an
+        niemanden gesendet:
+    </p>
+
+    <ul>
+        <li>dein bester Punktestand (Rekordserie im Einzelmodus);</li>
+        <li>gegebenenfalls die Liste der gekauften Inhalte (für den Offline-Zugriff gespeichert) und deine
+            Spieleinstellungen.</li>
+    </ul>
+
+    <p>
+        Durch die Deinstallation der App werden diese Informationen von deinem Gerät gelöscht.
+    </p>
+
+    <h2>5. Dienste von Drittanbietern</h2>
+
+    <p>
+        Die App nutzt folgende Dienste, die Daten gemäß ihren eigenen Datenschutzrichtlinien verarbeiten können:
+    </p>
+
+    <ul>
+        <li><strong>PostHog</strong> (anonyme Nutzungsstatistiken, Hosting in der Europäischen Union) —
+            <a href="https://posthog.com/privacy">https://posthog.com/privacy</a></li>
+        <li><strong>Google AdMob</strong> (Werbung) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> und
+            <a href="https://support.google.com/admob/answer/6128543">AdMob-Informationen zur Werbung</a></li>
+        <li><strong>Google Play Billing</strong> (In-App-Käufe, falls angeboten) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+    </ul>
+
+    <h2>6. Werbung und Einwilligung</h2>
+
+    <p>
+        Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz wird dir beim ersten Start ein
+        Einwilligungsformular gemäß dem Google-UMP-/TCF-Rahmen angezeigt, um deine Entscheidung zu personalisierter
+        Werbung einzuholen. Ohne Einwilligung werden nicht personalisierte Anzeigen geschaltet. Das Ansehen einer
+        Prämienanzeige ist immer freiwillig. Du kannst das Werbe-Tracking jederzeit in den Einstellungen deines Geräts
+        einschränken
+        (Android: <em>Einstellungen &gt; Google &gt; Werbung &gt; Werbe-ID löschen</em>).
+    </p>
+
+    <h2>7. Rechtsgrundlage (DSGVO)</h2>
+
+    <ul>
+        <li>Bereitstellung des Dienstes und Verwaltung der In-App-Käufe: Vertragserfüllung.</li>
+        <li>Anonyme Nutzungsstatistiken und Betrugsprävention: berechtigtes Interesse an der Verbesserung und
+            Absicherung der App.</li>
+        <li>Personalisierte Werbung: deine Einwilligung, eingeholt über das in der App angezeigte Formular und
+            jederzeit widerrufbar.</li>
+    </ul>
+
+    <h2>8. Speicherdauer</h2>
+
+    <p>
+        Anonyme Nutzungsereignisse werden von PostHog höchstens 12 Monate lang gespeichert. Von Google verarbeitete
+        Daten (Werbung, Käufe) werden gemäß den Richtlinien von Google gespeichert. Lokal gespeicherte Daten bleiben
+        erhalten, bis die App deinstalliert oder ihre Daten gelöscht werden.
+    </p>
+
+    <h2>9. Minderjährige</h2>
+
+    <p>
+        Grosso Modo ist ein Allgemeinwissensspiel für alle Altersgruppen, richtet sich aber nicht speziell an Kinder im
+        Sinne der Google-Play-Richtlinie „Familien“. Wir erheben nicht wissentlich personenbezogene Daten von Kindern
+        unter 13 Jahren. Wenn du glaubst, dass ein Kind uns Daten übermittelt hat, schreibe bitte an
+        <strong>gbzgames37@gmail.com</strong>, damit wir sie löschen.
+    </p>
+
+    <h2>10. Deine Rechte</h2>
+
+    <p>
+        Gemäß der DSGVO hast du das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und
+        Widerspruch sowie das Recht, deine Einwilligung zur Werbung zu widerrufen. Da die App nur eine anonyme
+        Installations-ID verwendet, gib in deiner Anfrage bitte die Angaben an, mit denen sie sich zuordnen lässt. Du
+        kannst diese Rechte ausüben, indem du an <strong>gbzgames37@gmail.com</strong> schreibst. Außerdem hast du das
+        Recht, dich bei einer Aufsichtsbehörde zu beschweren, etwa bei der Datenschutzbehörde deines Wohnsitzlandes (in
+        Frankreich bei der CNIL).
+    </p>
+
+    <h2>11. Änderungen dieser Erklärung</h2>
+
+    <p>
+        Diese Erklärung kann aktualisiert werden, wenn sich die App weiterentwickelt, zum Beispiel wenn neue Funktionen
+        oder Dienste hinzukommen. Anhand des oben angegebenen Datums der letzten Aktualisierung lässt sich die gültige
+        Fassung erkennen.
+    </p>
+
+    <h2>12. Kontakt</h2>
+
+    <p>
+        Bei Fragen zu dieser Datenschutzerklärung oder zur Verarbeitung deiner Daten:<br>
+        <strong>Gbz Games — gbzgames37@gmail.com</strong>
+    </p>
+
+    </article>
+
+    <!-- ===================== ITALIANO ===================== -->
+    <article lang="it" data-title="Informativa sulla privacy – Grosso Modo (Gbz Games)" hidden>
+
+    <h1>Informativa sulla privacy</h1>
+
+    <p class="meta">
+        App: <strong>Grosso Modo</strong> (identificativo Google Play: <strong>com.gbzgames.grossomodo</strong>)<br>
+        Sviluppatore: <strong>Gbz Games</strong><br>
+        Contatto: <strong>gbzgames37@gmail.com</strong><br>
+        Ultimo aggiornamento: 27 ottobre 2026
+    </p>
+
+    <p>
+        La presente informativa sulla privacy descrive il modo in cui l'app mobile <strong>Grosso Modo</strong>,
+        sviluppata e pubblicata su Google Play da <strong>Gbz Games</strong>, tratta le informazioni durante il suo
+        utilizzo. Si applica esclusivamente all'app Grosso Modo (com.gbzgames.grossomodo).
+    </p>
+
+    <h2>1. Titolare del trattamento</h2>
+
+    <p>
+        Il titolare del trattamento dei dati è <strong>Gbz Games</strong>, sviluppatore dell'app Grosso Modo,
+        contattabile all'indirizzo <strong>gbzgames37@gmail.com</strong>.
+    </p>
+
+    <h2>2. Dati che non raccogliamo</h2>
+
+    <p>
+        L'app non richiede la creazione di un account e non raccoglie <strong>alcun dato identificativo
+        diretto</strong>: né nome, né indirizzo e-mail, né numero di telefono, né indirizzo postale, né contatti, né
+        foto, né posizione precisa, né contenuto della rubrica.
+    </p>
+
+    <p>
+        I nomi o soprannomi dei giocatori inseriti prima di una partita a più giocatori restano solo nella memoria del
+        dispositivo per la durata della partita. Non vengono salvati in modo permanente, né inviati a Gbz Games, né
+        condivisi con terzi.
+    </p>
+
+    <h2>3. Dati raccolti e finalità</h2>
+
+    <p>
+        Per far funzionare l'app, misurarne l'utilizzo in forma aggregata e finanziarne la versione gratuita, vengono
+        trattati i seguenti dati:
+    </p>
+
+    <table>
+        <tr>
+            <th>Categoria</th>
+            <th>Dati interessati</th>
+            <th>Finalità</th>
+        </tr>
+        <tr>
+            <td>Statistiche di utilizzo (analytics)</td>
+            <td>Eventi di gioco anonimi (inizio e fine partita, modalità di gioco singola o a più giocatori, domande
+                giocate e temi, stime inserite e scarto rispetto alla risposta corretta, uso della calcolatrice,
+                visualizzazione e chiusura della pubblicità, apertura ed esito di un acquisto), identificativo anonimo
+                di installazione generato casualmente, identificativo di sessione, lingua del dispositivo, modello e
+                tipo di dispositivo, versione del sistema operativo, versione dell'app.</td>
+            <td>Capire come viene usata l'app, regolare la difficoltà delle domande, correggere i problemi e migliorare
+                il gioco.</td>
+        </tr>
+        <tr>
+            <td>Pubblicità</td>
+            <td>ID pubblicità di Google (AAID), indirizzo IP, informazioni tecniche sul dispositivo e interazioni con
+                gli annunci, raccolti da Google AdMob.</td>
+            <td>Mostrare pubblicità, in particolare annunci con premio che permettono di sbloccare alcune funzioni del
+                gioco (per esempio una seconda possibilità), misurarne il rendimento e prevenire le frodi.</td>
+        </tr>
+        <tr>
+            <td>Acquisti in-app (se proposti)</td>
+            <td>Stato degli acquisti effettuati nell'app, trasmesso da Google Play. Gbz Games non ha mai accesso ai tuoi
+                dati di pagamento, gestiti esclusivamente da Google.</td>
+            <td>Sbloccare e ripristinare i contenuti acquistati sui tuoi dispositivi.</td>
+        </tr>
+    </table>
+
+    <p>
+        L'app <strong>non registra il tuo schermo</strong> e non effettua alcuna registrazione della sessione
+        (funzione «session replay» disattivata). Nessun dato raccolto viene venduto.
+    </p>
+
+    <h2>4. Dati memorizzati sul tuo dispositivo</h2>
+
+    <p>
+        Alcune informazioni sono conservate localmente sul tuo dispositivo, sono accessibili solo all'app e non vengono
+        inviate a nessuno:
+    </p>
+
+    <ul>
+        <li>il tuo miglior punteggio (serie record in modalità singola);</li>
+        <li>se del caso, l'elenco dei contenuti acquistati (memorizzato per l'accesso offline) e le tue preferenze di
+            gioco.</li>
+    </ul>
+
+    <p>
+        La disinstallazione dell'app elimina queste informazioni dal tuo dispositivo.
+    </p>
+
+    <h2>5. Servizi di terze parti</h2>
+
+    <p>
+        L'app utilizza i seguenti servizi, che possono trattare dati secondo le proprie informative sulla privacy:
+    </p>
+
+    <ul>
+        <li><strong>PostHog</strong> (statistiche di utilizzo anonime, hosting nell'Unione europea) —
+            <a href="https://posthog.com/privacy">https://posthog.com/privacy</a></li>
+        <li><strong>Google AdMob</strong> (pubblicità) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> e
+            <a href="https://support.google.com/admob/answer/6128543">informazioni di AdMob sulla pubblicità</a></li>
+        <li><strong>Google Play Billing</strong> (acquisti in-app, se proposti) —
+            <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+    </ul>
+
+    <h2>6. Pubblicità e consenso</h2>
+
+    <p>
+        Nello Spazio economico europeo, nel Regno Unito e in Svizzera, al primo avvio ti viene mostrato un modulo di
+        consenso conforme al quadro Google UMP / TCF per raccogliere la tua scelta sugli annunci personalizzati. In
+        assenza di consenso, gli annunci mostrati non sono personalizzati. Guardare un annuncio con premio è sempre
+        facoltativo. Puoi limitare in qualsiasi momento il tracciamento pubblicitario dalle impostazioni del tuo
+        dispositivo
+        (Android: <em>Impostazioni &gt; Google &gt; Annunci &gt; Elimina ID pubblicità</em>).
+    </p>
+
+    <h2>7. Base giuridica (GDPR)</h2>
+
+    <ul>
+        <li>Fornitura del servizio e gestione degli acquisti in-app: esecuzione di un contratto.</li>
+        <li>Statistiche di utilizzo anonime e prevenzione delle frodi: legittimo interesse a migliorare e proteggere
+            l'app.</li>
+        <li>Pubblicità personalizzata: il tuo consenso, raccolto tramite il modulo mostrato nell'app e revocabile in
+            qualsiasi momento.</li>
+    </ul>
+
+    <h2>8. Periodo di conservazione</h2>
+
+    <p>
+        Gli eventi di utilizzo anonimi sono conservati da PostHog per un massimo di 12 mesi. I dati trattati da Google
+        (pubblicità, acquisti) sono conservati secondo le norme di Google. I dati memorizzati localmente restano sul
+        dispositivo fino alla disinstallazione dell'app o alla cancellazione dei suoi dati.
+    </p>
+
+    <h2>9. Minori</h2>
+
+    <p>
+        Grosso Modo è un gioco di cultura generale adatto a tutti, ma non è specificamente destinato ai bambini ai
+        sensi delle norme «Famiglie» di Google Play. Non raccogliamo consapevolmente dati personali di bambini di età
+        inferiore a 13 anni. Se ritieni che un bambino ci abbia fornito dei dati, scrivi a
+        <strong>gbzgames37@gmail.com</strong> affinché possiamo cancellarli.
+    </p>
+
+    <h2>10. I tuoi diritti</h2>
+
+    <p>
+        In conformità al GDPR, hai il diritto di accesso, rettifica, cancellazione, limitazione e opposizione, nonché
+        il diritto di revocare il tuo consenso pubblicitario. Poiché l'app utilizza solo un identificativo anonimo di
+        installazione, indica nella tua richiesta gli elementi che permettono di identificarlo. Puoi esercitare questi
+        diritti scrivendo a <strong>gbzgames37@gmail.com</strong>. Hai inoltre il diritto di proporre reclamo a
+        un'autorità di controllo, come l'autorità per la protezione dei dati del tuo paese di residenza (in Italia, il
+        Garante per la protezione dei dati personali; in Francia, la CNIL).
+    </p>
+
+    <h2>11. Modifiche alla presente informativa</h2>
+
+    <p>
+        La presente informativa può essere aggiornata con l'evoluzione dell'app, per esempio quando vengono aggiunte
+        nuove funzioni o nuovi servizi. La data dell'ultimo aggiornamento, indicata in cima alla pagina, identifica la
+        versione in vigore.
+    </p>
+
+    <h2>12. Contatto</h2>
+
+    <p>
+        Per qualsiasi domanda su questa informativa sulla privacy o sul trattamento dei tuoi dati:<br>
+        <strong>Gbz Games — gbzgames37@gmail.com</strong>
+    </p>
+
+    </article>
+
+    <script>
+        // Langue : ?lang= (lien depuis l'appli), sinon celle du navigateur, sinon l'anglais (comme l'appli)
+        (function () {
+            var articles = document.querySelectorAll('article[lang]');
+            var supported = [];
+            for (var i = 0; i < articles.length; i++) supported.push(articles[i].lang);
+
+            var wanted = [new URLSearchParams(location.search).get('lang')]
+                .concat(navigator.languages || [navigator.language]);
+            var lang = 'en';
+            for (var j = 0; j < wanted.length; j++) {
+                var code = (wanted[j] || '').slice(0, 2).toLowerCase();
+                if (supported.indexOf(code) !== -1) { lang = code; break; }
+            }
+
+            for (var k = 0; k < articles.length; k++) {
+                var shown = articles[k].lang === lang;
+                articles[k].hidden = !shown;
+                if (shown) document.title = articles[k].getAttribute('data-title');
+            }
+            document.documentElement.lang = lang;
+
+            var links = document.querySelectorAll('.langs a');
+            for (var l = 0; l < links.length; l++) {
+                if (links[l].getAttribute('data-lang') === lang) links[l].setAttribute('aria-current', 'true');
+            }
+        })();
+    </script>
 
 </body>
 </html>
